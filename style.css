@@ -1,0 +1,38 @@
+.result {
+	padding: 10px;
+	margin: 10px;
+	border: solid 1px black;
+	white-space: pre-wrap;
+}
+.resultGotowce{
+  padding: 10px;
+  margin: 10px;
+  background: rgb(138, 158, 195);
+  white-space: pre-wrap;
+}
+
+.gotowce > p{
+  border: solid 2px limegreen;
+  margin: 0;
+  background: #85ce7c;
+  padding: 10px;
+  text-align: center;
+}
+
+.gotowce > p.important{
+  border: solid 2px red;
+  margin: 0;
+  background: #e1aaaa;
+  padding: 10px;
+  text-align: center;
+}
+
+.gotowce >p:hover{
+  cursor: pointer;
+  background: #de5959;
+}
+
+.gotowce >p:active{
+  background: rgb(57, 50, 50);
+  color: red;
+}

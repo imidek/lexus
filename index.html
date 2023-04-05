@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Wywiad</title>
+</head>
+
+<body>
+  <h1>i tak bez końca...</h1>
+
+  <form>
+    <label for="color">Wybierz okolicę:</label><br>
+    <select name="color" id="color">
+      <option value="-" disabled selected>--okolica--</option>
+      <option value="kolana">kolano</option>
+      <option value="biodra">biodra</option>
+      <option value="barku">bark</option>
+      <option value="stawu skokowego">ATC</option>
+      <option value="stopy">stopa</option>
+      <option value="kręgosłupa">kręgosłup</option>
+      <option value="łokcia">łokieć</option>
+      <option value="nadgarstka">nadgarstek</option>
+      <option value="ręki">ręka</option>
+
+    </select>
+    <br><br>
+
+    <label for="size">Wybierz stronę:</label><br>
+    <select name="size" id="size">
+      <option value="-" disabled selected>--określ stronę--</option>
+      <option value=", obustronnie">obustronnie</option>
+      <option value=", po stronie prawej">prawa</option>
+      <option value=", po stronie lewej">lewa</option>
+    </select>
+    <br><br>
+
+    <label for="reason">Powód:</label><br>
+    <select name="reason" id="reason">
+      <option value="-" disabled selected>--powód dolegliwości--</option>
+      <option value=" Tło przeciążeniowe.">overuse</option>
+      <option value=" Bez uchwytnej przyczyny.">i dont know...</option>
+      <option value=" Związane z aktywnością fizyczną.">sport</option>
+      <option value=" Związane z urazem.">uraz</option>
+      <option value=" Bez urazu w wywiadzie.">non-traumatic</option>
+    </select>
+    <br><br>
+
+    <div class="chronic">
+      Choroby towarzyszące: <br>
+
+      <input type="checkbox" id="option1" name="illness" value="NT">
+      <label for="option1">NT</label> <br>
+
+      <input type="checkbox" id="option2" name="illness" value="cukrzyca">
+      <label for="option2">cukrzyca</label><br>
+
+      <input type="checkbox" id="option3" name="illness" value="ChNS">
+      <label for="option3">ChNS</label><br>
+
+      <input type="checkbox" id="option4" name="illness" value="niedoczynność tarczycy">
+      <label for="option3">niedoczynność tarczycy</label><br>
+
+      <input type="checkbox" id="option5" name="illness" value="nadczynność tarczycy">
+      <label for="option3">nadczynność tarczycy</label><br>
+
+      <input type="checkbox" id="option6" name="illness" value="astma oskrzelowa">
+      <label for="option3">astma oskrzelowa</label><br>
+
+      <input type="checkbox" id="option7" name="illness" value="zwyrodnienie kręgosłupa">
+      <label for="option3">zwyrodnienie kręgosłupa</label><br>
+
+      <input type="checkbox" id="option8" name="illness" value="zaburzenia rytmu serca">
+      <label for="option3">zaburzenia rytmu serca</label><br>
+    </div>
+    <br>
+    Uczulenia: <br>
+    <input type="checkbox" id="option1" name="allergies" value="neguje">
+    <label for="option1">nie</label> <br>
+
+    <input type="checkbox" id="option2" name="allergies" value="tak">
+    <label for="option2">tak</label><br>
+
+
+
+
+    <input type="submit" value="Wyślij">
+  </form>
+
+
+  <div class="result"></div>
+  <div class="resultGotowce">Wyniki:</div>
+
+  <div class="gotowce">
+    <p class="important">Ciąża/karmienie piersią: neguje.</p>
+    <p class="important">Uczulenia: neguje.</p>
+    <p class="important">Nie zgłasza innych dolegliwości.</p>
+    <p class="important">Bez zaburzeń w zakresie zwieraczy, bez zaburzeń mikcji i defekacji.</p>
+    <p class="important">Pacjent wydolny krążeniowo i oddechowo.</p>
+    <p class="important">Ukrwienie i unerwnienie kończyny zachowane.</p>
+    <p class="important">Bez cech infekcji.</p>
+    
+
+    <p>używki: neguje           /papierosy       /alkohol</p>
+    <p>Brzuch palpacyjnie niebolesny, objawy otrzewnowe ujemne.</p>
+    <p>Obustronnie szmer pęcherzykowy prawidłowy, symetryczny.</p>
+    <p>Tkliwość żeber po stronie:</p>
+    <p>FABER(+/-) FADIR(-/+)</p>
+    <p>Wzmożone napięcie mięśni kończyny dolnej / przykręgosłupowo</p>
+    <p>Siła mięśni zachowana.</p>
+    <p>ROM w zakresie normy.</p>
+    <p>Funkcja ścięgien zachowana.</p>
+    <p>Cechy niestabilności:</p>
+ 
+    <p>Kolano prawe/lewe:
+      objaw balotowania ujemny/dodatni
+      ROM w normie, niebolesny
+      szpara stawowa niebolesna
+      bez cech niestabilności/cechy niestabilności
+      testy łąkotkowe dodatnie/ujemne
+      aparat wyprostny kolana wydolny, palpacyjnie o zachowanej ciągłości
+      Kolano bez cech niestabilności.
+      Testy łąkotkowe ujemne.
+      Bez balotowania rzepki.
+      Aparat wyprostny kolana wydolny.
+      Ucieplenie i kolor skóry prawidłowe
+      --------------------
+      Tkliwość palpacyjna w rzucie ścięgna m. czworogłowego uda oraz więzadła rzepki
+    </p>
+      <p>SZYJA:
+        Objaw Spurlinga obustronnie ujemny, objaw osiowy ujemny, bez tkliwości palpacyjnej. 
+        ROM w normie, niebolesny.
+        Bez tkliwości palpacyjnej.
+        Kończyny górne o prawidłowym ukrwieniu i unerwieniu, ROM i siła mieśniowa w normie.
+        </p>
+      <p>KDP:
+        Ukrwienie i unerwienie kończyny w normie.
+        ROM w normie.
+        Bez tkliwości palpacyjnej.
+        Staw skokowy bez cech niestabilności.
+        Konczyna o prawidłowych obrysach, bez obrzeku.
+        Ucieplenie skóry prawidłowe.
+        </p>
+    <p>Cechy uszkodzenia mięśnia nadgrzebieniowego / podgrzebieniowego / podłopatkowego</p>
+    <p>Ograniczenie ruchu zgięcia / wyprostu / odwodzenia / rotacji wewnętrznej / rotacji zewnętrznej</p>
+    <p>Cechy konfiktu podbarkowego.</p>
+  </div>
+  <!-- <button class="gotowe" value="ciąża/karmienie piersią: neguje">ciąża</button>
+  <button class="gotowe" value="uczulenia: neguje">uczulenia</button>
+  <button class="gotowe"></button>
+  <button class="gotowe"></button>
+  <button class="gotowe"></button>
+  <button class="gotowe"></button>
+  <button class="gotowe"></button>
+  <button class="gotowe"></button>
+  <button class="gotowe"></button>
+  <button class="gotowe"></button> -->
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
